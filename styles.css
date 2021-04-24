@@ -1,0 +1,57 @@
+
+
+
+
+
+
+
+
+
+.hero-contaier {
+    display: flex;
+    justify-content: space-between;
+    margin: ;
+}
+.hero-1 {
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+.hero-1 p-1 {
+    background-color: antiquewhite;
+
+}
+.hero-1 p-2 {
+    background-color: rgb(236, 99, 48);
+}
+.offer{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: thistle;
+}
+.hero-2 {
+    background-image: url(./pictures/breakfast.jpg) ;
+    flex-grow: 2;
+
+}
+.hero-3 {
+    background-image: url(./pictures/lunch.jpg) ;
+    flex-grow: 2;
+}
+.hero-4 {
+    background-image: url(./pictures/dinner.jpg);
+    flex-grow: 2;
+}
+.hero-container-1 {
+
+}
+.fast-food {
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+}
+.fast-text{
+    float: right;
+}
+
+
+
+
