@@ -1,19 +1,32 @@
+.body {
+    outline: 2px solid ;
+}
 
 
 
 
 
 
-
-
+.nav-wrapper {
+    outline: 2px solid;
+    background-size: cover;
+    padding-left: 50%;
+    padding-right: 50%;
+    background-image: url(./pictures/landing.jpg)
+}
+#nav-wrapper-1 {
+    background-size: 80%;
+}
 
 .hero-contaier {
     display: flex;
     justify-content: space-between;
-    margin: ;
+    height: 180px;
+    
 }
 .hero-1 {
     flex-wrap: wrap;
+    width: 10%;
     flex-grow: 1;
 }
 .hero-1 p-1 {
@@ -26,6 +39,9 @@
 .offer{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: thistle;
+    width: 100px;
+    height: 100px;
+
 }
 .hero-2 {
     background-image: url(./pictures/breakfast.jpg) ;
@@ -44,12 +60,9 @@
 
 }
 .fast-food {
-    display: flex;
     flex-wrap: wrap;
-    float: left;
-}
-.fast-text{
     float: right;
+   
 }
 
 
