@@ -1,5 +1,15 @@
 body {
-    margin: opx;
+    margin: 10px 10px;
+    border: 2px solid black;
+    padding: 10px 10px;
+}
+.nav-wrapper {
+    border: 2px solid black;
+    margin: 0px 0px;
+    padding: 200px 0px;
+    background-image: url(./pictures/landing.jpg);
+    background-repeat: no-repeat;
+    
 }
 
 
