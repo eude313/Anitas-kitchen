@@ -5,13 +5,42 @@ body {
 }
 .nav-wrapper {
     border: 2px solid black;
-    margin: 0px 0px;
-    padding: 200px 0px;
-    background-image: url(./pictures/landing.jpg);
+    margin: 10px 0px;
+    padding: 20% 40%;
+    background-image: 
+     url(./pictures/landing.jpg);
     background-repeat: no-repeat;
-    
+    background-size: 100% 100%;
+
+}
+.nav-wrapper-1 {
+    background-image: url(./pictures/logoBig.png );
+    background-size: 40%;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 50px ;
 }
 
+.hero-contaier{
+    border: 2px solid;
+    padding: 6.5%;
+    display: flex;
+    justify-content: space-around;
+}
+.hero-1{
+    flex-direction: column;
+    height: 80%;
+}
+.hero-2{
+    flex-grow: 2;
+    max-height: 80%;
 
-
+}
+.hero-3{ 
+    flex-grow: 2; 
+}
+.hero-4{ 
+    flex-grow: 2;
+}
 
