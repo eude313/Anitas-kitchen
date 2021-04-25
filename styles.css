@@ -11,6 +11,12 @@ body {
      url(./pictures/landing.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+}
+ #wrapper {
+    width: 35px;
+    height: 5px;
+    background-color: azure;
+    margin: 6px 0px;
 
 }
 .nav-wrapper-1 {
@@ -18,8 +24,12 @@ body {
     background-size: 40%;
     font-style: oblique;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 600;
-    font-size: 50px ;
+ 
+}
+.nav-wrapper-1, h1, span{
+    text-decoration: antiquewhite;
+    font-weight: 200; 
+
 }
 
 .hero-contaier{
@@ -42,5 +52,39 @@ body {
 }
 .hero-4{ 
     flex-grow: 2;
+}
+.hero-container-1{
+    border: 2px solid;
+    margin: 2px;
+  
+}
+.container-01 {
+    border: 2px solid;
+    margin: 2px;
+
+
+}
+#image-1 {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.image-1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    border: opx;
+}
+.image-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 0px;
+}
+
+.fast-food{
+    float: left;
+
+
 }
 
