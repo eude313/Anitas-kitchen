@@ -9,13 +9,14 @@
 
 .nav-wrapper {
     outline: 2px solid;
+    margin: 0% 0%;
+    padding: 0%;
     background-size: cover;
-    padding-left: 50%;
-    padding-right: 50%;
     background-image: url(./pictures/landing.jpg)
 }
-#nav-wrapper-1 {
-    background-size: 80%;
+#nav-wrapper-1, img {
+    padding: 150px
+
 }
 
 .hero-contaier {
@@ -61,7 +62,7 @@
 }
 .fast-food {
     flex-wrap: wrap;
-    float: right;
+    float: left;
    
 }
 
