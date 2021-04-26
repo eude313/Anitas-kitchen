@@ -23,7 +23,7 @@ A working computer and an upto date browser.
 
 - Clone the repository to your folder using Git
 ```
-$ git clone https: //
+$ git clone https: //https://eude313.github.io/Anitas%20kitchen/
 
 ```
 - Open the index.html file and website should open.
