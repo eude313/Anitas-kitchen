@@ -9,7 +9,7 @@ _ NCSS
 
 ## Live demo 
 
-[Live demo link ] ()
+[Live demo link ] (https://eude313.github.io/Anitas%20kitchen/)
 
 ## Getting started 
 
@@ -33,7 +33,7 @@ $ git clone https: //https://eude313.github.io/Anitas%20kitchen/
 👤 **Author**
 
 
-- GitHub: [@)
+- GitHub: [@eude313] (github)
 - twitter [@)
 
 
@@ -43,7 +43,7 @@ $ git clone https: //https://eude313.github.io/Anitas%20kitchen/
 By giving feed back  on this project!
 
 ## Acknowledgments
-
+ 
 - Appreciation to  Moringa school for giving me this opportunity to learn :)
 
 ## 📝License
