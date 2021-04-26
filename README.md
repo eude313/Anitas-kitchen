@@ -33,8 +33,8 @@ $ git clone https: //https://eude313.github.io/Anitas%20kitchen/
 👤 **Author**
 
 
-- GitHub: [@eude313] (github)
-- twitter [@)
+- GitHub: [@eude313] (https://github.com/eude313)
+- twitter: [@eudes20753235] (https://twiter.com/_.scriptures_)
 
 
 
