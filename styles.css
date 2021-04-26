@@ -1,90 +1,102 @@
 body {
-    margin: 10px 10px;
-    border: 2px solid black;
-    padding: 10px 10px;
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+   
 }
 .nav-wrapper {
-    border: 2px solid black;
-    margin: 10px 0px;
-    padding: 20% 40%;
     background-image: 
      url(./pictures/landing.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-}
- #wrapper {
-    width: 35px;
-    height: 5px;
-    background-color: azure;
-    margin: 6px 0px;
+    height: 65vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
-.nav-wrapper-1 {
-    background-image: url(./pictures/logoBig.png );
-    background-size: 40%;
-    font-style: oblique;
-    font-family: Georgia, 'Times New Roman', Times, serif;
- 
-}
-.nav-wrapper-1, h1, span{
-    text-decoration: antiquewhite;
-    font-weight: 200; 
-
+.nav-wrapper-1 figcaption{
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+    font-size:30px ;
 }
 
 .hero-contaier{
-    border: 2px solid;
-    padding: 6.5%;
+    width: 100%;
     display: flex;
-    justify-content: space-around;
+    height: 35vh;
+
 }
-.hero-1{
-    flex-direction: column;
-    height: 80%;
+.hero {
+    width: 25%;
+
+}
+.first {
+   
+    background-repeat: no-repeat;
+    background-position: center 100%;
+    background-size: cover;
+}
+.hero-1{ 
+  background-color: white;
+}
+.second {
+    height: 50%;
+
+}
+.para{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.p-2{
+    background-color:  #F15A29  ;
+    color: white;
+    
 }
 .hero-2{
-    flex-grow: 2;
-    max-height: 80%;
-
+    background-image: url("./pictures/breakfast.jpg") ;
+    color: white;
 }
-.hero-3{ 
-    flex-grow: 2; 
+
+
+.hero-3{
+    background-image: url("./pictures/lunch.jpg") ;
+    color: white;
+
 }
 .hero-4{ 
-    flex-grow: 2;
+    background-image: url("./pictures/dinner.jpg") ;
+    color: white;
 }
 .hero-container-1{
-    border: 2px solid;
-    margin: 2px;
-  
+    display: flex;
+   
 }
 .container-01 {
-    border: 2px solid;
-    margin: 2px;
-
-
+  width: 100%;
+  height: auto;
+  margin-left: 120px;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+  
 }
-#image-1 {
-    position: relative;
-    top: 0;
-    left: 0;
-}
-.image-1 {
-    position: relative;
-    top: 0;
-    left: 0;
-    border: opx;
-}
-.image-2 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    border: 0px;
-}
-
-.fast-food{
-    float: left;
-
+.container-01 table{
+   box-shadow: 5px 5px 6px #ccc, -5px -5px 6px  #ccc;
+   padding: 11px;
 
 }
+#text{
+    margin-left: 50px;
+   max-width: 20%;
+}
+
+
+
 
