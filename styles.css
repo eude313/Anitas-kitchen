@@ -73,13 +73,13 @@ body {
     color: white;
 }
 .hero-container-1{
-    display: flex;
+    
    
 }
 .container-01 {
-  width: 100%;
+  width: 80%;
   height: auto;
-  margin-left: 120px;
+  margin-left: 100px;
   margin-top: 100px;
   display: flex;
   align-items: center;
@@ -92,11 +92,37 @@ body {
    padding: 11px;
 
 }
-#text{
+#text-1{
     margin-left: 50px;
-   max-width: 20%;
+   max-width: 30%;
 }
-
-
+.container-02{
+  width: 100%;
+  height: auto;
+  margin-right: 120px;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.container-02 table{
+    box-shadow: 5px 5px 6px #ccc, -5px -5px 6px  #ccc;
+    padding: 11px;
+}
+ #text-2{
+    margin-right: 50px;
+    max-width: 25%;
+    text-align: end;
+ }
+ .container-3 {
+     background-image:
+      url(/pictures/foodsBg.jpg);
+ }
+ .container-03 {
+   
+    display: flex;
+    
+ }
 
 
