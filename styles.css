@@ -34,7 +34,6 @@ body {
 
 }
 .first {
-   
     background-repeat: no-repeat;
     background-position: center 100%;
     background-size: cover;
@@ -43,11 +42,12 @@ body {
   background-color: white;
 
 }
-}
-.second {
-    max-height: 50%;
-    height: 50%;
+.hero-1 .p-1 {
+    height:50%
 
+}
+.hero-1 .p-2 { 
+     height:50%
 }
 .para{
     display: flex;
@@ -74,10 +74,7 @@ body {
 .hero-4{ 
     background-image: url("./pictures/dinner.jpg") ;
     color: white;
-}
-.hero-container-1{
-    
-   
+  
 }
 .container-01 {
   width: 80%;
@@ -88,16 +85,25 @@ body {
   align-items: center;
   justify-content: center;
   margin-bottom: 100px;
+}
+.container-01, button {
+    border-color: #F15A29;
+    background-color: white; 
   
 }
+.container-02, button{
+    border-color: #F15A29;
+    background-color: white;  
+}
+
 .container-01 table{
    box-shadow: 5px 5px 6px #ccc, -5px -5px 6px  #ccc;
    padding: 11px;
 
 }
-#text-1{
+#text-1 {
     margin-left: 50px;
-   max-width: 30%;
+    max-width: 30%;
 }
 .container-02{
   width: 100%;
@@ -118,24 +124,20 @@ body {
     max-width: 25%;
     text-align: end;
  }
- .container-3 {
-     background-image:
+.container-3 {
+    height: 65vh;
+   background-image:
       url(/pictures/foodsBg.jpg);
       background-size: 100% 100%;
-      width: 100%;
-     
- }
- .container-03 {
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    height: 65vh;
     width: 100%;
+    color: white;  
     display: flex;
-    align-items: center;
-    justify-content: center;
- }
-.table-01{
+}
+.container-03{
     
+}
+.image-cont{
+   padding:12% 15%;
 }
 .container-4{
     display: flex;
@@ -161,5 +163,26 @@ body {
     width: 49%;
 }
 .container-5 {
-
+    height: 30vh;
+    background-image: url(/pictures/subscribe.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.container-6 sub{
+    background-color: ;
+}
+#container-7 {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F15A29;
+    color: white;
+}
+#container-8{
+  
 }
