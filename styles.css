@@ -162,7 +162,18 @@
      padding: 10px;
  }
  
- .container-03 li :hover {
+ .container-03 li {
+     border: 1px solid rgba(168, 163, 163, 0.26);
+     background-color: rgba(165, 165, 165, 0.336);
+ }
+ 
+ .container-03 li:first-child {
+     border: none;
+     color: #F15A29;
+     background-color: none;
+ }
+ 
+ .container-03 li:hover {
      background-color: gray;
      color: #F15A29;
  }
